@@ -1,0 +1,17 @@
+@BASE_URL = http://localhost:5001
+
+### get me
+GET {{BASE_URL}}/users/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJwYW4iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTc3MjY5OTIxMywiZXhwIjoxNzcyNzg1NjEzfQ.ESOaiEoy7oDjEkjW3WDPb8vAb6YkKMOylw2yjP__IGY
+
+
+### edit me
+PUT {{BASE_URL}}/users/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJwYW4iLCJyb2xlIjoiVVNFUiIsImlhdCI6MTc3MjY5OTIxMywiZXhwIjoxNzcyNzg1NjEzfQ.ESOaiEoy7oDjEkjW3WDPb8vAb6YkKMOylw2yjP__IGY
+
+{
+  "username": "pan_new",
+  "password": "newpassword123"
+}
